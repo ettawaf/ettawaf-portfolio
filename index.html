@@ -1,93 +1,129 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Souhaib - Développeur</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script src="https://unpkg.com/lucide@latest"></script>
-  <style>
-    .fade-in { animation: fadeIn 1.2s ease-in-out forwards; opacity: 0; }
-    @keyframes fadeIn { to { opacity: 1; transform: translateY(0); } from { transform: translateY(20px); } }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio personnel de Souhaib - Python, n8n, Cybersécurité, Solidity">
+    <title>Portfolio - Souhaib</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0d1117;
+            color: #c9d1d9;
+            line-height: 1.6;
+        }
+        header {
+            background: #161b22;
+            padding: 2rem 0;
+            text-align: center;
+            border-bottom: 2px solid #30363d;
+        }
+        header h1 {
+            color: #58a6ff;
+            font-size: 2.5rem;
+        }
+        nav {
+            margin-top: 1rem;
+        }
+        nav a {
+            color: #c9d1d9;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        nav a:hover {
+            color: #58a6ff;
+        }
+        section {
+            padding: 2rem;
+            max-width: 900px;
+            margin: auto;
+        }
+        h2 {
+            color: #58a6ff;
+            border-bottom: 2px solid #30363d;
+            padding-bottom: 0.5rem;
+        }
+        .skills span {
+            display: inline-block;
+            background: #21262d;
+            color: #58a6ff;
+            padding: 0.4rem 0.8rem;
+            margin: 0.3rem;
+            border-radius: 5px;
+            font-size: 0.9rem;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #161b22;
+            border-top: 2px solid #30363d;
+            font-size: 0.8rem;
+        }
+        a {
+            color: #58a6ff;
+        }
+        .project {
+            background: #21262d;
+            padding: 1rem;
+            border-radius: 8px;
+            margin: 1rem 0;
+        }
+    </style>
 </head>
-<body class="bg-gray-100 text-gray-800">
+<body>
 
-  <!-- Hero -->
-  <section class="bg-blue-900 text-white py-20 text-center fade-in">
-    <div class="max-w-3xl mx-auto">
-      <h1 class="text-4xl font-bold mb-4">Souhaib</h1>
-      <p class="text-lg mb-6">💻 Développeur Python, n8n, Cybersécurité & Solidity | Créateur de solutions logicielles sur mesure.</p>
-      <a href="#contact" class="bg-white text-blue-900 px-6 py-3 rounded-full font-semibold hover:bg-gray-200 transition">Me Contacter</a>
-    </div>
-  </section>
+    <header>
+        <h1>Souhaib</h1>
+        <p>Développeur Python | n8n | Cybersécurité | Solidity</p>
+        <nav>
+            <a href="#about">À propos</a>
+            <a href="#skills">Compétences</a>
+            <a href="#projects">Projets</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
-  <!-- Services -->
-  <section class="py-16 max-w-6xl mx-auto">
-    <h2 class="text-3xl font-bold mb-12 text-center">Services</h2>
-    <div class="grid md:grid-cols-4 gap-8">
-      <div class="bg-white shadow-lg rounded-xl p-6 text-center hover:shadow-2xl transition">
-        <i data-lucide="code" class="mx-auto w-12 h-12 text-blue-900 mb-4"></i>
-        <h3 class="font-semibold mb-2">Développement Python</h3>
-        <p>Logiciels sur mesure avec Tkinter, PDF, et gestion de stock.</p>
-      </div>
-      <div class="bg-white shadow-lg rounded-xl p-6 text-center hover:shadow-2xl transition">
-        <i data-lucide="workflow" class="mx-auto w-12 h-12 text-blue-900 mb-4"></i>
-        <h3 class="font-semibold mb-2">Automatisation n8n</h3>
-        <p>Workflows intelligents pour CRM, e-mails et intégrations.</p>
-      </div>
-      <div class="bg-white shadow-lg rounded-xl p-6 text-center hover:shadow-2xl transition">
-        <i data-lucide="shield" class="mx-auto w-12 h-12 text-blue-900 mb-4"></i>
-        <h3 class="font-semibold mb-2">Cybersécurité</h3>
-        <p>Protection des données et sécurisation des applications.</p>
-      </div>
-      <div class="bg-white shadow-lg rounded-xl p-6 text-center hover:shadow-2xl transition">
-        <i data-lucide="blocks" class="mx-auto w-12 h-12 text-blue-900 mb-4"></i>
-        <h3 class="font-semibold mb-2">Blockchain & Solidity</h3>
-        <p>Développement de Smart Contracts et DApps sécurisées.</p>
-      </div>
-    </div>
-  </section>
+    <section id="about">
+        <h2>À propos</h2>
+        <p>Passionné par le développement et les nouvelles technologies, j’aide les entreprises à créer des solutions innovantes et sécurisées. Mon expertise couvre Python, l'automatisation avec n8n, la cybersécurité et le développement blockchain avec Solidity.</p>
+    </section>
 
-  <!-- Projects -->
-  <section class="bg-gray-200 py-16">
-    <h2 class="text-3xl font-bold mb-12 text-center">Projets</h2>
-    <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
-      <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition">
-        <h3 class="font-semibold mb-2">Logiciel de Facturation</h3>
-        <p>Application complète avec PDF, devis et multi-devises.</p>
-      </div>
-      <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition">
-        <h3 class="font-semibold mb-2">Gestion de Stock</h3>
-        <p>Suivi en temps réel et alertes automatiques de rupture.</p>
-      </div>
-      <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition">
-        <h3 class="font-semibold mb-2">DApp Solidity</h3>
-        <p>Contrats intelligents Ethereum et intégration blockchain.</p>
-      </div>
-    </div>
-  </section>
+    <section id="skills">
+        <h2>Compétences</h2>
+        <div class="skills">
+            <span>Python</span>
+            <span>n8n</span>
+            <span>Cybersécurité</span>
+            <span>Solidity</span>
+            <span>HTML & CSS</span>
+            <span>Automatisation</span>
+        </div>
+    </section>
 
-  <!-- Contact -->
-  <section id="contact" class="py-16 max-w-4xl mx-auto text-center">
-    <h2 class="text-3xl font-bold mb-4">Contact</h2>
-    <p class="mb-6">📧 Email : <a href="mailto:contact@souhaib.com" class="text-blue-600">contact@souhaib.com</a></p>
-    <form class="grid gap-4 max-w-lg mx-auto">
-      <input type="text" placeholder="Nom" class="p-3 rounded border border-gray-300" required>
-      <input type="email" placeholder="Email" class="p-3 rounded border border-gray-300" required>
-      <textarea placeholder="Message" class="p-3 rounded border border-gray-300" rows="4" required></textarea>
-      <button type="submit" class="bg-blue-900 text-white py-3 rounded hover:bg-blue-800 transition">Envoyer</button>
-    </form>
-  </section>
+    <section id="projects">
+        <h2>Projets</h2>
+        <div class="project">
+            <h3>Automatisation de tâches avec n8n</h3>
+            <p>Création de workflows intelligents pour automatiser les processus d’entreprise.</p>
+        </div>
+        <div class="project">
+            <h3>Smart Contract en Solidity</h3>
+            <p>Développement et déploiement d’un contrat intelligent sur Ethereum.</p>
+        </div>
+    </section>
 
-  <!-- Footer -->
-  <footer class="bg-blue-900 text-white py-4 text-center">
-    <p>&copy; 2025 Souhaib. Tous droits réservés.</p>
-  </footer>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email : <a href="mailto:contact@souhaib.com">contact@souhaib.com</a></p>
+        <p>LinkedIn : <a href="https://linkedin.com/in/souhaib" target="_blank">linkedin.com/in/souhaib</a></p>
+    </section>
 
-  <script>
-    lucide.createIcons();
-  </script>
+    <footer>
+        © 2025 ettawaf - Tous droits réservés
+    </footer>
 
 </body>
 </html>
+
+
