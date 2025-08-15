@@ -25,8 +25,8 @@ Développeur passionné avec expertise en :
 - Hébergé sur **GitHub Pages**
 
 ## 📬 Me contacter
-- **Email** : contact@souhaib.com  
-- **LinkedIn** : [linkedin.com/in/souhaib](https://linkedin.com/in/ettawaf)
+- **Email** : najimediainf@gmail.com  
+- **LinkedIn** : [[linkedin.com/in/souhaib](https://linkedin.com/in/ettawaf](https://www.linkedin.com/in/be-media-525880101/))
 
 ---
 © 2025 ettawaf. Tous droits réservés.
