@@ -1,6 +1,6 @@
 # ettawaf-portfolio
 Landing page pour présenter mes compétences et projets
-# 🌐 Portfolio - Souhaib
+# 🌐 Portfolio - ettawaf
 
 Bienvenue sur mon portfolio personnel !  
 Ce site présente mes compétences, mes services et quelques-uns de mes projets.
@@ -26,8 +26,8 @@ Développeur passionné avec expertise en :
 
 ## 📬 Me contacter
 - **Email** : contact@souhaib.com  
-- **LinkedIn** : [linkedin.com/in/souhaib](https://linkedin.com/in/souhaib)
+- **LinkedIn** : [linkedin.com/in/souhaib](https://linkedin.com/in/ettawaf)
 
 ---
-© 2025 Souhaib. Tous droits réservés.
+© 2025 ettawaf. Tous droits réservés.
 
