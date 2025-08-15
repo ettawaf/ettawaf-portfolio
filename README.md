@@ -26,7 +26,7 @@ Développeur passionné avec expertise en :
 
 ## 📬 Me contacter
 - **Email** : najimediainf@gmail.com  
-- **LinkedIn** : [[linkedin.com/in/souhaib](https://linkedin.com/in/ettawaf](https://www.linkedin.com/in/be-media-525880101/))
+- **LinkedIn** : [(https://www.linkedin.com/in/be-media-525880101/)](https://linkedin.com/in/ettawaf](https://www.linkedin.com/in/be-media-525880101/))
 
 ---
 © 2025 ettawaf. Tous droits réservés.
